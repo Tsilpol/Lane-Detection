@@ -40,12 +40,12 @@ The detection algorithm follows a strict 5-step methodology:
 ### Original vs Detected Lanes
 A side-by-side comparison of the raw input and the final estimated driving path.
 
-![Final Lane Detection Output](plots/lane_output.png)
+![Final Lane Detection Output](images/lane_output.png)
 
 ### Edge Detection & Hough Space
 Visualization of the Canny edges inside the defined ROI and the extracted Hough lines before regression.
 
-![Canny Edges and Hough Lines](plots/canny_hough.png)
+![Canny Edges and Hough Lines](images/canny_hough.png)
 
 ---
 
