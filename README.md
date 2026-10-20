@@ -1,11 +1,4 @@
-<h1 align="center">Highway Lane Detection Pipeline 🛣️</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MATLAB-R2023a+-blue.svg" alt="MATLAB">
-  <img src="https://img.shields.io/badge/Domain-Computer%20Vision-success.svg" alt="Computer Vision">
-  <img src="https://img.shields.io/badge/Algorithms-Canny%20%7C%20Hough-orange.svg" alt="Canny/Hough">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen.svg" alt="Completed">
-</p>
+<h1 align="center">Highway Lane Detection Pipeline</h1>
 
 <p align="center">
   <em>A robust Computer Vision pipeline implemented in MATLAB for detecting and estimating highway driving lanes using classical image processing techniques.</em>
@@ -13,22 +6,22 @@
 
 <hr>
 
-## 📖 Table of Contents
-- [About The Project](#-about-the-project)
-- [Pipeline Architecture](#-pipeline-architecture)
-- [Visual Results](#-visual-results)
-- [Execution & Usage](#-execution--usage)
-- [Author](#-author)
+## Table of Contents
+- [About The Project](#about-the-project)
+- [Pipeline Architecture](#pipeline-architecture)
+- [Visual Results](#visual-results)
+- [Execution & Usage](#execution--usage)
+- [Author](#author)
 
 ---
 
-## 💡 About The Project
+## About The Project
 
 Autonomous driving systems heavily rely on accurate lane detection. This project implements a complete, step-by-step image processing pipeline in MATLAB to identify road lanes from raw images. Instead of using black-box neural networks, this approach utilizes core Computer Vision mathematics, ensuring high interpretability and efficiency.
 
 ---
 
-## ⚙️ Pipeline Architecture
+## Pipeline Architecture
 
 The detection algorithm follows a strict 5-step methodology:
 
@@ -40,25 +33,23 @@ The detection algorithm follows a strict 5-step methodology:
 
 ---
 
-## 📊 Visual Results
+## Visual Results
 
 *(Note: Create a `plots` folder and place your output images there to visualize the pipeline steps)*
 
 ### Original vs Detected Lanes
 A side-by-side comparison of the raw input and the final estimated driving path.
-<p align="center">
-  <img src="plots/lane_output.png" width="700" alt="Final Lane Detection Output">
-</p>
+
+![Final Lane Detection Output](plots/lane_output.png)
 
 ### Edge Detection & Hough Space
 Visualization of the Canny edges inside the defined ROI and the extracted Hough lines before regression.
-<p align="center">
-  <img src="plots/canny_hough.png" width="700" alt="Canny Edges and Hough Lines">
-</p>
+
+![Canny Edges and Hough Lines](plots/canny_hough.png)
 
 ---
 
-## 🚀 Execution & Usage
+## Execution & Usage
 
 ### Prerequisites
 * MATLAB installed with the **Image Processing Toolbox**.
